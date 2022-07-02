@@ -1,0 +1,27 @@
+{
+  "name": "create-freact-app",
+  "version": "1.0.1",
+  "description": "Create a react application with firebase necessities",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^18.0.0",
+    "@types/prompts": "^2.0.14",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "fs-extra": "^10.1.0",
+    "prompts": "^2.4.2"
+  },
+  "bin": {
+    "create-freact-app": "./dist/index.js"
+  }
+}
