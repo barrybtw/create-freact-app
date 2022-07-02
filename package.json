@@ -1,14 +1,35 @@
 {
   "name": "create-freact-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create a react application with firebase necessities",
   "main": "index.js",
+  "contributors": [
+    {
+      "name": "barrybtw",
+      "email": "barrydotgg@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barrybtw/create-freact-app.git"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react",
+    "firebase",
+    "create-freact-app",
+    "javascript",
+    "typescript"
+  ],
+  "exports": "./dist/index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=14.16"
+  },
+  "author": "Nicolai Bernhard <barrydotgg@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/fs-extra": "^9.0.13",
